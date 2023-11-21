@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>los cimientos</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Bogota Colombia</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-secondary"></i></a>cimientoslgbtiq@gmailcom</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Nota: Te ayudamos a hacer crecer y ser mejor</small></div>
+                    <div class="top-link">
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
+                        <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/logo.png" alt="Logo" class="logo-image">
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link active text-secondary">Inicio</a>
+                            <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                            <a href="service.html" class="nav-item nav-link">Servicios</a>
+                            <a href="project.html" class="nav-item nav-link">Proyectos</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pagina</a>
+                                <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">Nuestro blog</a>
+                                    <a href="team.html" class="dropdown-item">Nuestro equipo</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonios&nbsp;</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50">Tiene alguna pregunta?</span>
+                            <span class="text-secondary">Call: + 57 3108644214</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-1.jpg" class="img-fluid" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp"></h6>
+                                <h2 class="text-white display-1 mb-4 animated fadeInRight">Tu aceptación comienza con Tu Voz: Conecta, Comparte, Sana</h2>
+<p class="mb-4 text-white fs-5 animated fadeInDown">Descubre la liberación emocional al romper el silencio. Nuestra aplicación de asesoramiento psicológico en línea te invita a encontrar tu voz</p>
+                              <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Leer más</button></a>
+                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contacta con nosotros</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-2.jpg" class="img-fluid" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h6 class="text-secondary h4 animated fadeInUp"></h6>
+                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">Cualquiera que sea la libertad por la que luchamos debe ser una libertad basada en la igualdad..</h1>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">Atender estas necesidades fomenta entornos más inclusivos, promoviendo la salud mental y emocional positiva de personas LGBTIQ+</p>
+                                <a href="" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Leer más</button></a>
+                                <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Contacta con nosotros</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+
+        <!-- Fact Start -->
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                          
+                          <blockquote>
+                            <h5 class="text-N mt-1">IMPACTO DE LAS LEYES QUE CRIMINALIZAN A LAS PERSONAS LGBT EN LA VIOLENCIA</h5>
+                          </blockquote>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">11%</h1>
+                            <h5 class="text-N mt-1">fue atacado/a físicamente en los últimos cinco años</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">23%</h1>
+                            <h5 class="text-N mt-1">recibió insultos verbales en el plazo de un mes</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">33%</h1>
+                            <h5 class="text-N mt-1">recibió miradas incómodas o fuero&nbsp; intimidados/as</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h5 class="text-primary">Nosotros somos</h5>
+                        <h1 class="mb-4">LOS CIMIENTOS DE LA INCLUSIÓN</h1>
+                        <p>La palabra aliado tiene poder. Significa que alguien lo está protegiendo y apoyándolo porque sabe que es lo correcto. En el movimiento LGBTT, un aliado describe a alguien que puede no ser LGBTIQ+, pero que está comprometido con la igualdad y condena la desigualdad.</p>
+                        <p class="mb-4">Es un llamado a la autenticidad y el empoderamiento personal. Este concepto celebra la idea de que la aceptación de uno mismo no solo es posible, sino que es fundamental para el bienestar emocional.</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nuestros servicios</h5>
+                    <h1>Servicios creados específicamente para cada persona</h1>
+                </div>
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-venus fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Participación democrática y transparencia</h4>
+                                    <p class="mb-4">Valorar los costes y beneficios de salir del armario frente a seguir ocultándolo.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más&nbsp;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-mars fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Imparcialidad e independencia</h4>
+                                    <p class="mb-4">Sospesar en qué entornos y en qué momento es mejor explicarlo.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-heart fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Superación y resiliencia</h4>
+                                    <p class="mb-4">Adaptar el discurso que se dirá en cada entorno y situación</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Veracidad y ética</h4>
+                                    <p class="mb-4">Afrontando los miedos y las creencias que nos ha inculcado la sociedad sobre la homosexualidad.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">La solidaridad y la cooperación internacional.</h4>
+                                    <p class="mb-4">Trabajando la autoestima , ya que puede estar muy afectada por todas las creencias impuestas por la sociedad.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    <i class="fas fa-regular fa-laptop fa-7x mb-4 text-primary"></i>
+                                    <h4 class="mb-3">Interseccionalidad</h4>
+                                    <p class="mb-4">Ayudándote a reconocer tu propia identidad y todas las emociones que aparecen durante el proceso.</p>
+                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">leer más</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+
+        <!-- Project Start -->
+        <div class="container-fluid project py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nuestro proyecto</h5>
+                    <h1>Nuestros proyectos recientemente completados</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Aceptación</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">CONSULTA</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Incidencia política</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Investigación</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-5.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Premios Plumas</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="project-item">
+                            <div class="project-img">
+                                <img src="img/project-6.jpg" class="img-fluid w-100 rounded" alt="">
+                                <div class="project-content">
+                                    <a href="#" class="text-center">
+                                        <h4 class="text-secondary">Formación</h4>
+                                        <p class="m-0 text-white">&nbsp;</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+
+        <!-- Blog Start 
+        <div class="container-fluid blog py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Blog</h5>
+                    <h1>Latest Blog & News</h1>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">24 March 2023</span>
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">23 April 2023</span>
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">30 jan 2023</span>
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                            </div>
+                            <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5 mb-5 team">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nuestro equipo <strong>de psicologos</strong></h5>
+<h1>Conozca a nuestro equipo de expertos</h1>
+                </div>
+                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Lic. Valeria Martínez - Psicóloga Infantil de Género y Familia</h4>
+                                    <p class="m-0">La Lic. Valeria Martínez se especializa en trabajar con niños y adolescentes que exploran su identidad de género. Su enfoque se centra en colaborar estrechamente con las familias para brindar apoyo durante el proceso de comprensión y aceptación.</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Lic.Andrés Rodríguez - Psicólogo de Género y Terapeuta de Parejas</h4>
+                                    <p class="m-0">Lic. Andrés Rodríguez es un psicólogo clínico con una sólida experiencia en el campo de la identidad de género y las dinámicas de pareja. Su enfoque terapéutico se centra en la comprensión y apoyo integral, ayudando a individuos y parejas a explorar y fortalecer sus identidades y relaciones.</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Dra.Carmen Torres - Psicóloga de Género y Sexualidad</h4>
+                                    <p class="m-0">psicóloga clínica con más de 15 años de experiencia en el campo de la identidad de género y la sexualidad. Ha dedicado gran parte de su carrera a trabajar con personas que exploran y buscan comprender su identidad de género</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Dr.Javier Moreno - Psicólogo Clínico LGBTQ+</h4>
+                                    <p class="m-0">El Dr. Javier Moreno es un psicólogo clínico y activista LGBTQ+ con un enfoque comprometido en la promoción de la salud mental dentro de la comunidad. Es especialista en ayudar a personas LGBTQ+ a navegar por los desafíos específicos relacionados con la identidad de género</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>                          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Nuestro Testimonio</h5>
+                    <h1>Nuestro cliente diciendo!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="testimonial-item border p-4">
+                        <div class="d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-1.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Mariana Gutiérrez</h4>
+                                <p class="m-0 pb-3">Estudiante</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Mariana Gutiérrez es una joven de 25 años que ha estado explorando su identidad de género. Después de encontrar dificultades en su proceso, decidió buscar ayuda profesional. Se puso en contacto con la Dra. Carmen Torres, especialista en identidad de género. Después de varias sesiones, Mariana ha expresado su gratitud por el enfoque comprensivo y sin prejuicios de la Dra. Torres. </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-2.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Carlos Martínez</h4>
+                                <p class="m-0 pb-3">Ing Electronico</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Carlos Martínez, un hombre cisgénero de 29 años, buscó la ayuda del Lic. Andrés Rodríguez para mejorar la comunicación en su relación con su pareja transgénero. Después de algunas sesiones, Carlos ha destacado la eficacia de las estrategias de comunicación sugeridas por el Lic. Rodríguez.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-3.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Ana Ramírez</h4>
+                                <p class="m-0 pb-3">Agente Call Center</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Ana Ramírez, una mujer trans de 32 años, buscó la ayuda del Dr. Javier Moreno para abordar los desafíos emocionales relacionados con su transición de género. Ana ha expresado su aprecio por la empatía y comprensión del Dr. Moreno.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-4.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Diego Sánchez</h4>
+                                <p class="m-0 pb-3">Odontologo</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Diego Sánchez, un hombre cisgénero de 28 años, buscó asesoramiento con el Dr. Javier Moreno para entender y apoyar a su hermana adolescente, quien está explorando su identidad de género. Diego elogia la capacidad del Dr. Moreno para proporcionar orientación educativa y emocional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Ponerse en contacto</h5>
+                    <h1 class="mb-3">Contacto para cualquier consulta</h1>
+                    <p class="mb-2">Recuerda a nuestra amiga Elle con ella te podrás sentir más cómodo y adaptado para poder conversar de cómo te siente, te recomendamos ver el siguiente video.&nbsp;&nbsp; <a href="https://www.youtube.com/watch?v=D4dKTiVbvcc">https://www.youtube.com/watch?v=D4dKTiVbvcc</a>.</p>
+                </div>
+                <div class="contact-detail position-relative p-5">
+                    <div class="row g-5 mb-5 justify-content-center">
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="font-size: 2em; width: 64px; height: 64px;">
+                                    <i class="fas fa-map-marker-alt "></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">DIRECCIÓN</h4>
+                                    <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">CR79A#5-27sur</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style=" font-size: 2em; width: 64px; height: 64px;">
+                                    <i class="fa fa-phone "></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Llámanos</h4>
+                                    <a class="h5" href="tel:+0123456789" target="_blank">+57 3015186158</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style=" font-size: 2em; width: 64px; height: 64px;">
+                                    <i class="fa fa-envelope "></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Envíanos un correo</h4>
+                                    <a class="h5" href="mailto:info@example.com" target="_blank">cimientoslgbtiq@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                            <div class="p-5 h-100 rounded contact-map">
+                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.4710403339755!2d-73.82241512404069!3d40.685622471397615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26749046ee14f%3A0xea672968476d962c!2s123rd%20St%2C%20Queens%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1686493221834!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="p-5 rounded contact-form">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Su nombre">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Tu correo">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Proyecto">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="text-start">
+                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Enviar mensaje</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+         <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                             <img src="img/logo.png" alt="Logo" class="logo-image">
+                        </a>
+                        <p class="mt-4 text-light">Es un llamado a la autenticidad y el empoderamiento personal. Este concepto celebra la idea de que la aceptación de uno mismo</p>
+                        <div class="d-flex hightech-link">
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
+                            <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Enlaces</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre nosotros</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contacta con nosotros</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Nuestros Proyectos</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Blog</a>
+                        </div>
+                  </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Enlace de ayuda</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Condiciones de uso</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>política de privacidad</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Ayuda</a>
+                            <a href="" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contacto</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contacta con nosotros</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> Bogota Colombia</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +57 3108644214</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> cimientoslgbtiq@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>LOS CIMIENTOS</a>,  DE LA INCLUSIÓN.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light"><a href="https://themewagon.com">&nbsp;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
